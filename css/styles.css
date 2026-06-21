@@ -10839,6 +10839,37 @@ body {
   padding: 8rem 0;
 }
 
+#contact {
+  padding: 0;
+}
+
+#contact {
+    background: #3d0f54;
+}
+
+#contact h2 {
+    font-family: Georgia, serif;
+    color: white;
+}
+
+#contact p {
+    font-size: 1.2rem;
+}
+
+#contact a {
+    color: white;
+    text-decoration: underline;
+}
+
+#contact a:hover {
+    color: #d4af37;
+}
+
+#contact .bi {
+    color: #d4af37;
+    margin-right: 8px;
+}
+
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
 }
