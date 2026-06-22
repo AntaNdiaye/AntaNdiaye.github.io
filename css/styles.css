@@ -11132,6 +11132,11 @@ header.masthead {
 /* Mobile */
 @media (max-width: 768px) {
 
+    header.masthead {
+        height: auto;
+        min-height: 70vh;
+    }
+
     .hero-title {
         font-size: 2.4rem;
     }
@@ -11186,4 +11191,208 @@ header.masthead {
 
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
     color: #4d4969 !important;
+}
+
+/* ===================================
+   WHY CHOOSE GAKS BUSINESS
+=================================== */
+
+.why-us-section {
+    background: #ffffff;
+    padding: 20px 20px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.why-icon {
+    color: #4b1d67;
+    font-size: 5rem;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.why-stars {
+    color: #4b1d67;
+    font-size: 2.5rem;
+    letter-spacing: 8px;
+    margin-bottom: 15px;
+}
+
+.why-title {
+    color: #4b1d67;
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.why-box {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 25px 35px;
+    text-align: left;
+}
+
+.why-list {
+    margin: 0;
+    padding-left: 30px;
+    color: #4b1d67;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.why-list li {
+    margin-bottom: 10px;
+}
+
+.why-contact {
+    text-align: center;
+    color: #4b1d67;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.why-tagline {
+    color: #4b1d67;
+    font-size: 1.3rem;
+    font-style: italic;
+    /* margin-top: 25px;
+    margin-bottom: 25px; */
+}
+
+.why-btn {
+    background: #4b1d67;
+    color: white;
+    padding: 14px 40px;
+    border-radius: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.why-btn:hover {
+    background: #65288a;
+    color: white;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .why-title {
+        font-size: 2rem;
+    }
+
+    .why-stars {
+        font-size: 1.5rem;
+        letter-spacing: 4px;
+    }
+
+    .why-box {
+        padding: 20px;
+    }
+
+    .why-list {
+        font-size: 1.2rem;
+    }
+
+    .why-contact {
+        font-size: 1.4rem;
+    }
+}
+
+/* ===================================
+   FOUNDER SECTION
+=================================== */
+
+.founder-section {
+    background: #3f0d54;
+    padding: 70px 0;
+}
+
+.founder-title {
+    color: white;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.founder-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* Founder Card */
+
+.founder-card {
+    width: 320px;
+    background: #ffffff;
+    border: 3px solid #d4af37;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+.founder-image {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.founder-info {
+    padding: 10px 15px 15px;
+}
+
+.founder-info h3 {
+    color: #3f0d54;
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.founder-info p {
+    color: #3f0d54;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Description */
+
+.founder-description {
+    max-width: 550px;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.founder-description p {
+    margin-bottom: 15px;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .founder-title {
+        font-size: 2.2rem;
+    }
+
+    .founder-description {
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .founder-card {
+        width: 90%;
+        max-width: 320px;
+    }
 }
